@@ -8,8 +8,11 @@
 }
 
 body {
+  background-color: var(--lightgrayblue);
+  box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
+  margin: 0;
 }
 
 .attribution { 
@@ -19,4 +22,16 @@ body {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+.grid {
+  display: grid;
+  margin: 1rem 0;
+}
+
+.review {
+  background-color: var(--violet);
+  color: var(--lightgray);
+  display: grid;
+  margin: 0.75rem;
 }

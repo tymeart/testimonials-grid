@@ -39,13 +39,16 @@ body {
 }
 
 .author-pic {
-  border: 2px solid var(--lightgray);
+  border: 2px solid hsla(0, 0%, 81%, 0.5);
   border-radius: 100%;
   grid-column: 1;
   order: 1;
   width: 1.75rem;
 }
 
+.author-title {
+  opacity: 0.5;
+}
 .grid {
   display: grid;
   margin: 1rem 0;

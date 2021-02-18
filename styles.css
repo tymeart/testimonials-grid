@@ -49,9 +49,22 @@ body {
 .author-title {
   opacity: 0.5;
 }
+
+.black {
+  background-color: var(--blackblue);
+}
+
+.gray {
+  background-color: var(--darkgrayblue);
+}
+
 .grid {
   display: grid;
   margin: 1rem 0;
+}
+
+.purple {
+  background-color: var(--violet);
 }
 
 .review {
@@ -71,4 +84,9 @@ body {
 .quote {
   line-height: 1.5;
   opacity: 0.7;
+}
+
+.white {
+  background-color: var(--white);
+  color: var(--darkgrayblue);
 }

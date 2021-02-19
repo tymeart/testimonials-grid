@@ -38,6 +38,10 @@ body {
   order: 2;
 }
 
+.author-name {
+  font-size: 0.8rem;
+}
+
 .author-pic {
   border: 2px solid hsla(0, 0%, 81%, 0.5);
   border-radius: 100%;
@@ -65,6 +69,9 @@ body {
 
 .purple {
   background-color: var(--violet);
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-position: 90% 0%;
+  background-repeat: no-repeat;
 }
 
 .review {

@@ -77,6 +77,7 @@ body {
 .review {
   background-color: var(--violet);
   border-radius: 0.5rem;
+  box-shadow: 40px 50px 50px -50px var(--lightgray);
   color: var(--lightgrayblue);
   display: grid;
   margin: 0.75rem;
